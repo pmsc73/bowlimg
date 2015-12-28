@@ -8,7 +8,7 @@ public class MainPageResource {
 	@GET
 	@Produces(MediaType.TEXT_PLAIN)
 	public Response getTextHello(){
-		String text = "Hello world!";
+		String text = "Hello fucking world!";
 		return Response.ok(text).build();
 	}
 	

@@ -11,7 +11,6 @@ import java.util.Collection;
 public class Board {
 	// The territories
 	private Collection<Tile> tiles;
-
 	
 	public Board(Collection<Tile> tiles) {
 		this.tiles = tiles;

@@ -18,10 +18,10 @@ public class Tile {
 	// information about the units within the territory
 	private Collection<Army> armies;
 
-	public Tile(int x, int y) {
+	public Tile(int x, int y, int owner) {
 		this.x = x;
 		this.y = y;
-		this.owner = -1;
+		this.owner = owner;
 		this.armies = new ArrayList<Army>();
 	}
 	

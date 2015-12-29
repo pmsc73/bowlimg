@@ -20,9 +20,9 @@ public class Army {
 	// owner of the army
 	private int owner;
 	
-	public Army(Tile tile) {
+	public Army(int owner) {
 		this.size = 1;
-		this.owner = tile.getOwner();
+		this.owner = owner;
 		this.direction = Direction.NONE;
 	}
 	

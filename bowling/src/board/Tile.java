@@ -47,6 +47,9 @@ public class Tile {
 
 	public void setOwner(int owner) {
 		this.owner = owner;
+		if(armies.isEmpty()) {
+			armies.add(new Army(owner));
+		}
 	}
 
 	public Collection<Army> getArmies() {

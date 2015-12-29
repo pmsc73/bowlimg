@@ -24,7 +24,10 @@
 	</div>
 	<div id="map"><!-- Map View -->
 	  <svg>
-	  	
+	  	<path ng-repeat="tile in tiles"
+	  	  ng-attr-fill="{{tile.fill}}"
+	  	  ng-attr-path="{{tile.path}}"
+	  	/>
 	  </svg>
 	</div>
 </body>

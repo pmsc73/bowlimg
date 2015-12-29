@@ -2,16 +2,6 @@ package board;
 
 public class Army {
 	
-	enum Direction {
-		NONE,
-		NE,
-		E,
-		SE,
-		SW,
-		W,
-		NW
-	}
-	
 	private Direction direction;
 	
 	// number of units in the army
